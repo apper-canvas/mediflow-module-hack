@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 1,
+    "patientId": 1,
+    "doctorId": 1,
+    "visitDate": "2024-01-15",
+    "diagnosis": "Annual physical examination",
+    "symptoms": "No symptoms reported",
+    "treatment": "Routine health screening completed",
+    "notes": "Patient in excellent health. Continue current lifestyle habits.",
+    "followUpRequired": false
+  },
+  {
+    "Id": 2,
+    "patientId": 2,
+    "doctorId": 2,
+    "visitDate": "2024-01-10",
+    "diagnosis": "Hypertension stage 1",
+    "symptoms": "Occasional headaches, no chest pain",
+    "treatment": "Prescribed Lisinopril 10mg daily",
+    "notes": "Blood pressure 145/90. Lifestyle modifications recommended.",
+    "followUpRequired": true
+  },
+  {
+    "Id": 3,
+    "patientId": 3,
+    "doctorId": 3,
+    "visitDate": "2024-01-20",
+    "diagnosis": "Viral upper respiratory infection",
+    "symptoms": "Cough, congestion, mild fever",
+    "treatment": "Symptomatic treatment, rest, increased fluids",
+    "notes": "Symptoms improving. Return if worsening after 7 days.",
+    "followUpRequired": false
+  },
+  {
+    "Id": 4,
+    "patientId": 4,
+    "doctorId": 1,
+    "visitDate": "2024-01-12",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "symptoms": "Increased thirst, frequent urination",
+    "treatment": "Adjusted insulin dosage, dietary counseling",
+    "notes": "HbA1c: 8.2%. Need better glucose control.",
+    "followUpRequired": true
+  },
+  {
+    "Id": 5,
+    "patientId": 6,
+    "doctorId": 5,
+    "visitDate": "2024-01-18",
+    "diagnosis": "Lower back strain",
+    "symptoms": "Lower back pain, muscle stiffness",
+    "treatment": "Physical therapy referral, anti-inflammatory medication",
+    "notes": "Pain started after lifting heavy objects. MRI if no improvement.",
+    "followUpRequired": true
+  },
+  {
+    "Id": 6,
+    "patientId": 1,
+    "doctorId": 2,
+    "visitDate": "2024-01-08",
+    "diagnosis": "Routine blood work follow-up",
+    "symptoms": "None",
+    "treatment": "No treatment needed",
+    "notes": "All lab values within normal ranges. Continue current health regimen.",
+    "followUpRequired": false
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "name": "Sarah Mitchell",
+    "specialization": "Internal Medicine",
+    "department": "General Medicine",
+    "phone": "(555) 111-2222",
+    "email": "sarah.mitchell@hospital.com",
+    "schedule": {
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "workingDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    },
+    "isActive": true
+  },
+  {
+    "Id": 2,
+    "name": "James Rodriguez",
+    "specialization": "Cardiology",
+    "department": "Cardiovascular",
+    "phone": "(555) 333-4444",
+    "email": "james.rodriguez@hospital.com",
+    "schedule": {
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "workingDays": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"]
+    },
+    "isActive": true
+  },
+  {
+    "Id": 3,
+    "name": "Lisa Wang",
+    "specialization": "Pulmonology",
+    "department": "Respiratory Medicine",
+    "phone": "(555) 555-6666",
+    "email": "lisa.wang@hospital.com",
+    "schedule": {
+      "startTime": "08:30",
+      "endTime": "16:30",
+      "workingDays": ["Monday", "Wednesday", "Thursday", "Friday"]
+    },
+    "isActive": true
+  },
+  {
+    "Id": 4,
+    "name": "Michael Thompson",
+    "specialization": "Family Medicine",
+    "department": "Primary Care",
+    "phone": "(555) 777-8888",
+    "email": "michael.thompson@hospital.com",
+    "schedule": {
+      "startTime": "07:00",
+      "endTime": "15:00",
+      "workingDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    },
+    "isActive": true
+  },
+  {
+    "Id": 5,
+    "name": "Jennifer Kim",
+    "specialization": "Orthopedics",
+    "department": "Musculoskeletal",
+    "phone": "(555) 999-0000",
+    "email": "jennifer.kim@hospital.com",
+    "schedule": {
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "workingDays": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    },
+    "isActive": true
+  },
+  {
+    "Id": 6,
+    "name": "Robert Garcia",
+    "specialization": "Emergency Medicine",
+    "department": "Emergency",
+    "phone": "(555) 222-3333",
+    "email": "robert.garcia@hospital.com",
+    "schedule": {
+      "startTime": "00:00",
+      "endTime": "23:59",
+      "workingDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    },
+    "isActive": false
+  }
+]

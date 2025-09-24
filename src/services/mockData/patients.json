@@ -1,0 +1,168 @@
+[
+  {
+    "Id": 1,
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "dateOfBirth": "1985-03-15",
+    "phone": "(555) 123-4567",
+    "email": "sarah.johnson@email.com",
+    "address": {
+      "street": "123 Maple Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62701"
+    },
+    "emergencyContact": {
+      "name": "Michael Johnson",
+      "relationship": "Spouse",
+      "phone": "(555) 123-4568"
+    },
+    "medicalHistory": [
+      {
+        "Id": 1,
+        "visitDate": "2024-01-15",
+        "diagnosis": "Annual Checkup",
+        "treatment": "Routine examination",
+        "followUpRequired": false
+      }
+    ],
+    "createdAt": "2024-01-01T08:00:00Z"
+  },
+  {
+    "Id": 2,
+    "firstName": "Robert",
+    "lastName": "Chen",
+    "dateOfBirth": "1972-08-22",
+    "phone": "(555) 234-5678",
+    "email": "robert.chen@email.com",
+    "address": {
+      "street": "456 Oak Avenue",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62702"
+    },
+    "emergencyContact": {
+      "name": "Linda Chen",
+      "relationship": "Spouse",
+      "phone": "(555) 234-5679"
+    },
+    "medicalHistory": [
+      {
+        "Id": 2,
+        "visitDate": "2024-01-10",
+        "diagnosis": "Hypertension",
+        "treatment": "Prescribed medication",
+        "followUpRequired": true
+      }
+    ],
+    "createdAt": "2023-12-15T09:30:00Z"
+  },
+  {
+    "Id": 3,
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "dateOfBirth": "1990-11-08",
+    "phone": "(555) 345-6789",
+    "email": "emily.davis@email.com",
+    "address": {
+      "street": "789 Pine Road",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62703"
+    },
+    "emergencyContact": {
+      "name": "James Davis",
+      "relationship": "Father",
+      "phone": "(555) 345-6788"
+    },
+    "medicalHistory": [
+      {
+        "Id": 3,
+        "visitDate": "2024-01-20",
+        "diagnosis": "Flu symptoms",
+        "treatment": "Rest and fluids",
+        "followUpRequired": false
+      }
+    ],
+    "createdAt": "2024-01-05T14:15:00Z"
+  },
+  {
+    "Id": 4,
+    "firstName": "Michael",
+    "lastName": "Wilson",
+    "dateOfBirth": "1965-05-30",
+    "phone": "(555) 456-7890",
+    "email": "michael.wilson@email.com",
+    "address": {
+      "street": "321 Elm Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62704"
+    },
+    "emergencyContact": {
+      "name": "Patricia Wilson",
+      "relationship": "Spouse",
+      "phone": "(555) 456-7891"
+    },
+    "medicalHistory": [
+      {
+        "Id": 4,
+        "visitDate": "2024-01-12",
+        "diagnosis": "Diabetes management",
+        "treatment": "Insulin adjustment",
+        "followUpRequired": true
+      }
+    ],
+    "createdAt": "2023-11-20T10:45:00Z"
+  },
+  {
+    "Id": 5,
+    "firstName": "Jennifer",
+    "lastName": "Brown",
+    "dateOfBirth": "1988-09-14",
+    "phone": "(555) 567-8901",
+    "email": "jennifer.brown@email.com",
+    "address": {
+      "street": "654 Cedar Lane",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62705"
+    },
+    "emergencyContact": {
+      "name": "David Brown",
+      "relationship": "Spouse",
+      "phone": "(555) 567-8902"
+    },
+    "medicalHistory": [],
+    "createdAt": "2024-01-03T11:20:00Z"
+  },
+  {
+    "Id": 6,
+    "firstName": "David",
+    "lastName": "Martinez",
+    "dateOfBirth": "1978-12-03",
+    "phone": "(555) 678-9012",
+    "email": "david.martinez@email.com",
+    "address": {
+      "street": "987 Birch Drive",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62706"
+    },
+    "emergencyContact": {
+      "name": "Maria Martinez",
+      "relationship": "Spouse",
+      "phone": "(555) 678-9013"
+    },
+    "medicalHistory": [
+      {
+        "Id": 5,
+        "visitDate": "2024-01-18",
+        "diagnosis": "Back pain",
+        "treatment": "Physical therapy",
+        "followUpRequired": true
+      }
+    ],
+    "createdAt": "2023-12-28T16:30:00Z"
+  }
+]

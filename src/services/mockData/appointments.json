@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "patientId": 1,
+    "doctorId": 1,
+    "date": "2024-01-25",
+    "time": "09:00",
+    "duration": 30,
+    "type": "Consultation",
+    "status": "scheduled",
+    "notes": "Follow-up appointment",
+    "createdAt": "2024-01-20T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "patientId": 2,
+    "doctorId": 2,
+    "date": "2024-01-25",
+    "time": "10:30",
+    "duration": 45,
+    "type": "Checkup",
+    "status": "completed",
+    "notes": "Blood pressure monitoring",
+    "createdAt": "2024-01-18T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "patientId": 3,
+    "doctorId": 3,
+    "date": "2024-01-26",
+    "time": "14:00",
+    "duration": 30,
+    "type": "Consultation",
+    "status": "scheduled",
+    "notes": "Respiratory evaluation",
+    "createdAt": "2024-01-22T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "patientId": 4,
+    "doctorId": 1,
+    "date": "2024-01-26",
+    "time": "11:00",
+    "duration": 30,
+    "type": "Follow-up",
+    "status": "pending",
+    "notes": "Diabetes monitoring",
+    "createdAt": "2024-01-21T11:45:00Z"
+  },
+  {
+    "Id": 5,
+    "patientId": 5,
+    "doctorId": 4,
+    "date": "2024-01-27",
+    "time": "15:30",
+    "duration": 60,
+    "type": "Physical Exam",
+    "status": "scheduled",
+    "notes": "Annual physical examination",
+    "createdAt": "2024-01-23T13:20:00Z"
+  },
+  {
+    "Id": 6,
+    "patientId": 6,
+    "doctorId": 5,
+    "date": "2024-01-27",
+    "time": "09:30",
+    "duration": 45,
+    "type": "Treatment",
+    "status": "scheduled",
+    "notes": "Orthopedic consultation",
+    "createdAt": "2024-01-24T08:30:00Z"
+  },
+  {
+    "Id": 7,
+    "patientId": 1,
+    "doctorId": 2,
+    "date": "2024-01-28",
+    "time": "10:00",
+    "duration": 30,
+    "type": "Lab Results",
+    "status": "pending",
+    "notes": "Review test results",
+    "createdAt": "2024-01-25T15:00:00Z"
+  },
+  {
+    "Id": 8,
+    "patientId": 3,
+    "doctorId": 1,
+    "date": "2024-01-29",
+    "time": "13:00",
+    "duration": 30,
+    "type": "Consultation",
+    "status": "scheduled",
+    "notes": "General consultation",
+    "createdAt": "2024-01-26T12:00:00Z"
+  }
+]
