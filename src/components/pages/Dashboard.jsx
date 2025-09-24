@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import StatCard from "@/components/molecules/StatCard";
 import Card from "@/components/atoms/Card";
 import Button from "@/components/atoms/Button";
@@ -11,6 +13,12 @@ import { doctorService } from "@/services/api/doctorService";
 import { format } from "date-fns";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
+
+  const handleQuickAction = (action, route) => {
+    toast.info(`Navigating to ${action}...`);
+    navigate(route);
+  };
   const [stats, setStats] = useState({
     totalPatients: 0,
     todayAppointments: 0,
@@ -161,19 +169,39 @@ const Dashboard = () => {
           </h2>
           
           <div className="grid grid-cols-1 gap-4">
-            <Button variant="primary" size="lg" className="justify-start">
+<Button 
+              variant="primary" 
+              size="lg" 
+              className="justify-start"
+              onClick={() => handleQuickAction('Register New Patient', '/patients/new')}
+            >
               <ApperIcon name="UserPlus" size={20} className="mr-3" />
               Register New Patient
             </Button>
-            <Button variant="secondary" size="lg" className="justify-start">
+<Button 
+              variant="secondary" 
+              size="lg" 
+              className="justify-start"
+              onClick={() => handleQuickAction('Schedule Appointment', '/appointments/new')}
+            >
               <ApperIcon name="Calendar" size={20} className="mr-3" />
               Schedule Appointment
             </Button>
-            <Button variant="secondary" size="lg" className="justify-start">
+<Button 
+              variant="secondary" 
+              size="lg" 
+              className="justify-start"
+              onClick={() => handleQuickAction('Search Patient Records', '/patients/search')}
+            >
               <ApperIcon name="Search" size={20} className="mr-3" />
               Search Patient Records
             </Button>
-            <Button variant="secondary" size="lg" className="justify-start">
+<Button 
+              variant="secondary" 
+              size="lg" 
+              className="justify-start"
+              onClick={() => handleQuickAction('View Medical Records', '/records')}
+            >
               <ApperIcon name="FileText" size={20} className="mr-3" />
               View Medical Records
             </Button>
